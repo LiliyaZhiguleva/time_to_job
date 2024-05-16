@@ -1,0 +1,69 @@
+.about_us{
+   position: relative;
+}
+.rectangles_us{
+    position: relative;
+    background-color: #f9f9f9; 
+    padding: 20px;
+
+    content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2%;
+        background-color: #ff9108;
+        border-radius: 1px;
+        left: -20px;
+        z-index: -1;
+        opacity: .2;
+}
+.box_about_us{
+  padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p_about_us{
+     display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        margin: 10px;  
+}
+
+.box_img{
+    margin: 0 10px;
+    position: relative;
+}
+.img_about_us{
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+.shadow{
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+    background: #ff9108;
+    z-index: -1;
+}
+.vertical_text{
+    writing-mode: vertical-rl;
+    margin-right: 0;
+    padding: 15px;
+    opacity: 0.3;
+}
+li::marker {
+    list-style-type: circle;
+    color: #ff9108;
+}

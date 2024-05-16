@@ -1,0 +1,38 @@
+.social-icons {
+    position: relative;
+    text-align: center;
+}
+.box_social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 50px; /* Размер иконки */
+    height: auto;
+}
+.rectangles_s{
+    position: relative;
+    background-color: #f9f9f9; 
+    padding: 20px;
+
+    content: '';
+        position: absolute;
+        top: 0;
+        bottom: 25%;
+        width: 50%;
+        background-color: #ff9108;
+        border-radius: 1px;
+        right: -20px;
+        z-index: -1;
+        opacity: .7;
+}
+@media (max-width: 768px) {
+    .social-icon img {
+        width: 40px; /* Уменьшаем размер иконок на более узких экранах */
+    }
+}

@@ -1,0 +1,39 @@
+.questionnaire{
+    position: relative;
+    text-align: center;
+    background-image: url('/img/');
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 20px;
+    margin-top: 70px;
+}
+.rectangles{
+    position: relative;
+    background-color: #f9f9f9; 
+    padding: 20px;
+
+    content: '';
+        position: absolute;
+        top: 0;
+        bottom: 25%;
+        width: 30%;
+        background-color: #ff9108;
+        border-radius: 1px;
+        left: -20px;
+        z-index: -1;
+        opacity: .7;
+}
+
+.button-link{
+    display: inline-block; /* Отображать ссылку как блочный элемент */
+    padding: 10px 20px; /* Внутренний отступ */
+    background-color: #342115; /* Цвет фона ссылки */
+    color: #fff; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.button-link:hover {
+    background-color: #0056b3; /* Изменяем цвет фона при наведении */
+}

@@ -1,0 +1,32 @@
+.reasons{
+  margin-top: 100px;
+}
+.top{
+  position: relative;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Адаптивное число колонок, каждая минимум 200px шириной */
+    grid-gap: 40px; /* Расстояние между элементами */
+  }
+  
+  .reasons__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .reasons__img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .reasons__text {
+    margin: 10px 0;
+  }
