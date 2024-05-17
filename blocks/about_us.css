@@ -18,7 +18,7 @@
         opacity: .2;
 }
 .box_about_us{
-  padding: 15px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -31,12 +31,7 @@
 }
 
 .p_about_us{
-     display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        margin: 10px;  
+    margin: 10px;
 }
 
 .box_img{
